@@ -1,0 +1,46 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(paneladmin/img/gunadarma.jpg);
+    background-size: cover;
+    height: 640px;
+    
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 62px;
+}
+
+.deskripsi span {
+    color: red;
+}
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(0, 0, 0);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
